@@ -131,3 +131,27 @@ To reproduce the analysis:
 ## Note
 
 This repository is intended to provide the data, source code, analysis outputs, and supporting documentation associated with the machine learning component of the study.
+## Reproducibility and Code Availability
+
+The source code, processed datasets, analysis outputs, and supporting documentation for this study are publicly available in this repository:
+
+https://github.com/bhardwajMahi/SOX9-Breast-Cancer-Bone-Metastasis-ML
+
+The repository contains the MATLAB analysis scripts used for feature selection and machine-learning analysis, together with the corresponding datasets, results, figures, and documentation.
+
+The machine-learning workflow includes:
+
+- LASSO feature selection
+- Minimum Redundancy Maximum Relevance (mRMR)
+- Chi-square feature selection
+- Principal Component Analysis (PCA)
+- Bayesian hyperparameter optimization
+- Supervised machine-learning classification
+
+The repository also includes a reproducibility-status document describing the current implementation status and the remaining validation steps.
+
+### Important reproducibility note
+
+The MATLAB scripts were developed using prepared input data and workspace variables. A clean-install, turnkey execution workflow is still being documented and tested. Therefore, the repository currently provides transparent access to the source code, data, analysis outputs, and documentation but should not yet be described as a fully validated one-click implementation.
+
+For the study-level cohort composition and reproducibility details, see `REPRODUCIBILITY_STATUS.md`.
